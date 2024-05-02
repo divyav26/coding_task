@@ -123,7 +123,23 @@ for(let num of ForArr){
 
 //****** String method 
 
+// startWith()=>this method return true, if the string start with the provided string 
+                // otherwise it will return false
+                // This method is case-sensitive
+                
+// endWith()=>this method return true, if the string end with the provided string 
+                // otherwise it will return false
+                // This method is case-sensitive
 
+
+// includes()=>this method return true, if the string includes with the provided string 
+                // otherwise it will return false
+                // This method is case-sensitive
+
+const first_name='divya'
+console.log(`${first_name}`.startsWith('d')) //It retrun true
+console.log(`${first_name}`.endsWith('v'))//It  retrun false => because first_name endwith a 
+console.log(`${first_name}`.includes('i'))//it search i is present or not if present it will return true
 
 
 
