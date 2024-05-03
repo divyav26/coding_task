@@ -1,6 +1,6 @@
 // Write down the 10 new features introduced in ES6 along with what they mean and where they could be 
 
-// *****1. let keyword 
+// ***** let keyword 
 //=> It creates a block scoped variable which can reassigned but cannot be redeclared.
 
 let a = 10
@@ -19,7 +19,7 @@ fun()
 
 
 
-// *****2. const keyword 
+// ***** const keyword 
 
 // const =>It also creates a block scoped variable which cannot reassigned or cannot be redeclared.
 const string = 'hellow welcome'
@@ -29,8 +29,8 @@ const string = 'hellow welcome'
 
 //***** Arrow function
 
-// => Arrow function also knows as fat arrow function, is a simpler
-//      and shorter way for defining fun in javascript.
+// => Arrow function also knowns as fat arrow function, is a simpler
+//      and shorter way for defining function in javascript.
 
 
 const sum =(x, y) =>{
@@ -41,21 +41,21 @@ let x= 20
 let y=30
 console.log(sum(x,y))
 
-//****** 3. template Literals
+//******  template Literals
 
 let firstname="divya"
 let sarname="mishra"
 console.log(`My name is ${firstname} ${sarname}`)
 
 
-//****** 4. Array Destructuring 
+//****** Array Destructuring 
 // =>The Array Destructuring makes it easier to extract value from arrays or objets
 let name = ['divya','sachin','anita']
 let [name1,name2,name3] = name
 console.log(name1)
 
 
-//*****5. Spread (....) Op
+//***** Spread (...) Op
 // =>The spread op is used to expand or spread elements 
 // =>copying an array
 // => merging array
@@ -64,7 +64,7 @@ const arr1 = [1,2,3,4]
 const arr = [...arr1]
 console.log(arr1)
 
-//**** 6 Promises
+//**** Promises
 // =>It provides a structured way to handle asynchronous operation
 //   and their outcomes, helping to avoid callback hell and improving code readability
 
@@ -77,7 +77,7 @@ const promiseOne = new Promise(function(resolve, reject){
     
 })
 
-//**** 7 classes
+//**** classes
 // => We can use the class keyword to create a classes and objects
 //=> add a constructor() method
 // => we can add any number of methods
@@ -138,8 +138,8 @@ for(let num of ForArr){
 
 const first_name='divya'
 console.log(`${first_name}`.startsWith('d')) //It retrun true
-console.log(`${first_name}`.endsWith('v'))//It  retrun false => because first_name endwith a 
-console.log(`${first_name}`.includes('i'))//it search i is present or not if present it will return true
+console.log(`${first_name}`.endsWith('v'))//It retrun false => because first_name endwith a 
+console.log(`${first_name}`.includes('i'))//It search ('i') if present it will return true
 
 
 
