@@ -22,7 +22,7 @@ fun()
 // ***** const keyword 
 
 // const =>It also creates a block scoped variable which cannot reassigned or cannot be redeclared.
-const string = 'hellow welcome'
+const string = 'hello welcome'
 
 // string ='Thank You' //Assignment to constant variable.
 
